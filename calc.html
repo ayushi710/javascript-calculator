@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CALCULATOR</title>
+    <style>
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+        }
+        .title
+        {
+            font-size: 20px;
+            font-family: fantasy;
+            text-align: center;
+            margin: 5px;
+        }
+        .container
+        {
+            width:350px;
+            height:500px;
+            position: relative;
+            background-color: #FF80AB;
+            padding: 25px;
+            border: 1px solid black;
+            border-radius: 40px;
+            top:50px;
+            left: 50px;
+        }
+        .screen
+        {
+            width:93%;
+            height:50px;
+            position: relative ;
+            background-color: #f1f1f1;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 10px;
+
+        }
+        .input_display
+        {
+            width:100%;
+            font-size: 25px;
+            height: 49px;
+            background-color: #f1f1f1;
+            direction: rtl;
+
+        }
+        .buttons
+        {
+            position: absolute;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 88%;
+        }
+        .icons
+        {
+            width: 65px;
+            height: 52px;
+            color: aliceblue;
+            background-color: darkblue;
+            text-align: center;
+            margin: 10px;
+            font-size: 25px;
+
+        }
+        .zero,.equal
+        {
+            width: 153px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="title">
+        Electronic Calculator
+    </div>
+    <div class="screen">
+        <input type="text" class="input_display">
+    </div>
+    <div class="buttons">
+        <input type="button" value="ON" class="icons">
+        <input type="button" value="*" class="icons">
+        <input type="button" value="/" class="icons">
+        <input type="button" value="AC" class="icons">
+        <br>
+        <input type="button" value="7" class="icons">
+        <input type="button" value="8" class="icons">
+        <input type="button" value="9" class="icons">
+        <input type="button" value="+" class="icons">
+        <br>
+        <input type="button" value="4" class="icons">
+        <input type="button" value="5" class="icons">
+        <input type="button" value="6" class="icons">
+        <input type="button" value="-" class="icons">
+        <br>
+        <input type="button" value="1" class="icons">
+        <input type="button" value="2" class="icons">
+        <input type="button" value="3" class="icons">
+        <input type="button" value="." class="icons ">
+
+
+        <input type="button" value="0" class="icons zero">
+        <input type="button" value="=" class="icons equal"><br>
+
+    </div>
+
+</div>
+</body>
+</html>
